@@ -1,5 +1,10 @@
 @mixin desktop {
     @media (min-width: 1400px) {
+        #Navbar {
+            height: min-content;
+        }
+        
+        
         #header {
             display: grid;
             grid-template-columns: repeat(10, 10vw) ;
