@@ -501,10 +501,97 @@
             color: 565973;
         }
         #Page6_div2 {
-
+            border-style: solid;
+            border-width: 1;
+            border-color: E2E5F1;
+            padding: 20px;
+            border-radius: 15px;
+            margin-right: 50px;
         }
         #Page6_div3 {
-
+            border-style: solid;
+            border-width: 1;
+            border-color: E2E5F1;
+            padding: 20px;
+            border-radius: 15px;
+        }
+        #Page6_div4 {
+            grid-row: 2;
+            grid-column: 5 / 9;
+        }
+        #Page6_div5 {
+            display: flex;
+            justify-content: space-between;
+            box-shadow: lightgray -3px 3px 5px 1px;
+            padding: 10px 10px 10px 20px;
+            border-radius: 15px;
+        }
+        #Page6_text1 {
+            font-size: 16;
+            font-weight: 600;
+        }
+        #Page6_arrow {
+            writing-mode: vertical-lr;
+            -webkit-writing-mode: vertical-lr;
+            align-self: center;
+            background-color: F3F6FF;
+            border-radius: 50px;
+            text-align: center;
+            align-content: center;
+            height: 2vw;
+            width: 2vw;
+            font-weight: 900;
+            font-size: 20px;
+        }
+        #Page6_text2 {
+            font-size: 14;
+            color: 565973;
+            margin-right: 15px;
+        }
+        #Subscribe {
+            grid-row: 10 / 13;
+            grid-column: 2 / 9;
+            background-color: F3F6FF;
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        #Sub_text {
+            font-size: 24;
+            font-weight: 900;
+        }
+        #Sub_div {
+            border-style: solid;
+            border-width: 1;
+            background-color: white;
+            border-radius: 10px;
+            display: flex;
+        }
+        #Sub_txt {
+            font-weight: 600;
+            font-size: 16;
+            margin: 0px;
+            background-color: 6366F1;
+            padding: 20px;
+            border-radius: 0px 10px 10px 0px;
+            color: white;
+        }
+        #Sub_mail {
+            color: B4B7C9;
+            align-self: center;
+            width: 200;
+        }
+        #Sub_img {
+            margin: 15px;
+        }
+        #last {
+            color: 9397AD;
+            font-size: 14;
+            grid-row: 13;
+            grid-column: 4 / 7;
+            align-self: center;
+            text-align: center;
         }
     }
 }
